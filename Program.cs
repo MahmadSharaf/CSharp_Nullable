@@ -12,12 +12,12 @@ namespace ConsoleApp1
         {
             var player = new PlayerCharacter();
             player.Name = "Sharaf";
-            player.DaysSinceLastLogin = 42;
-            player.DateOfBirth = new DateTime(2018, 10, 15);
+            //player.DaysSinceLastLogin = 42;
+            //player.DateOfBirth = new DateTime(2018, 10, 15);
 
             PlayerDisplayer.Write(player);
 
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }
