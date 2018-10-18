@@ -14,7 +14,7 @@ namespace CSharp_Nullable
             { Name = "Sarah" };
             PlayerCharacter amrit = new PlayerCharacter(new IronBonesDefence())
             { Name = "Amrit" };
-            PlayerCharacter gentry = new PlayerCharacter(new NullDefence())
+            PlayerCharacter gentry = new PlayerCharacter(SpecialDefence.Null)
             { Name = "Gentry" };
 
             sarah.Hit(10);

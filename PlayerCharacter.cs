@@ -8,7 +8,7 @@ namespace CSharp_Nullable
 {
     class PlayerCharacter
     {
-        private readonly ISpecialDefence _specialDefence;
+        private readonly SpecialDefence _specialDefence;
 
         public string Name { get; set; }
         public int? DaysSinceLastLogin { get; set; }
@@ -16,7 +16,7 @@ namespace CSharp_Nullable
         public bool? IsNoob { get; set; }
         public int Health { get; set; } = 100;
 
-        public PlayerCharacter(ISpecialDefence specialDefence)
+        public PlayerCharacter(SpecialDefence specialDefence)
         {
             _specialDefence = specialDefence;
             DateOfBirth = null;         //null can now be used instead of magic numbers

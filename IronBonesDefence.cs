@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharp_Nullable 
 {
-    class IronBonesDefence : ISpecialDefence
+    class IronBonesDefence : SpecialDefence
     {
-        public int CalculateDamageReduction(int totalDamage)
+        public override int CalculateDamageReduction(int totalDamage)
         {
             return 5;
         }
