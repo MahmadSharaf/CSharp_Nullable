@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var player = new PlayerCharacter();
-            player.Name = "Sharaf";
+            //player.Name = "Sharaf";
             //player.DaysSinceLastLogin = 42;
             //player.DateOfBirth = new DateTime(2018, 10, 15);
 
