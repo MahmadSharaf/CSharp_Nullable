@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9AB59B33-8989-483C-B643-DDAD319D095D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>CSharp_Nullable</RootNamespace>
+    <AssemblyName>CSharp_Nullable</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiamondSkinDefence.cs" />
+    <Compile Include="IronBonesDefence.cs" />
+    <Compile Include="ISpecialDefence.cs" />
+    <Compile Include="NullDefence.cs" />
     <Compile Include="PlayerCharacter.cs" />
     <Compile Include="PlayerDisplayer.cs" />
     <Compile Include="Program.cs" />
